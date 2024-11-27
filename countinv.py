@@ -1,3 +1,8 @@
+"""Consider first/second year course-code choices of 100 students. 
+Find inversion count of these choices.
+Find students with zero, one, two, three inversion counts comment on your result. 
+"""
+
 import random
 
 def merge_splitcount(C,D):
