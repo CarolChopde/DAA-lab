@@ -1,3 +1,7 @@
+""" Consider a XYZ courier company. They receive different goods to transport to different cities. 
+Company needs to ship thegoods based on their life and value. Goods having less shelf life and high cost shall be shipped earlier. 
+Consider list of 100 such items and capacity of transport vehical is 200 tones. Implement Algorithm for fractional knapsack problem."""
+
 import csv
 class Item:
     def __init__(self, name, wt, val, shelflife):
