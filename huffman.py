@@ -1,3 +1,7 @@
+"""Download books from the website in html, text, doc, and pdf format. 
+Compress these books using Hoffman coding technique. Find the compression ratio."""
+
+
 import os
 import heapq
 import PyPDF2
